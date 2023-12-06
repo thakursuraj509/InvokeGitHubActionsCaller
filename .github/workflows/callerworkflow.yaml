@@ -6,7 +6,7 @@ on:
       calledworkflow_name:
         description: 'Called workflow Name for Triggering'
         required: true
-        default: 'Called Workflow Test'
+        default: 'Called_Workflow_Test'
       
       CalledWorkflow_github_account:
         description: 'GitHub Account Owner'

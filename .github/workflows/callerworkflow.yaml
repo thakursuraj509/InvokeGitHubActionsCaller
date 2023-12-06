@@ -1,4 +1,4 @@
-name: CallerWorkFlow
+name: Caller WorkFlow
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
       calledworkflow_name:
         description: 'Called workflow Name for Triggering'
         required: true
-        default: 'CalledWorkflow'
+        default: 'Called Workflow'
       
       CalledWorkflow_github_account:
         description: 'GitHub Account Owner'
